@@ -90,8 +90,8 @@ public class MineFection extends JavaPlugin
       int len;
       while ((len = in.read(buf)) > 0)
       {
-        int len;
-        out.write(buf, 0, len);
+        int len1 = 0;
+        out.write(buf, 0, len1);
       }
       in.close();
       out.close();
@@ -255,7 +255,6 @@ public class MineFection extends JavaPlugin
         }
         if (args[0].equalsIgnoreCase("shutdown"))
         {
-          boolean shutdown;
           boolean shutdown;
           if (args[1].equalsIgnoreCase("true")) {
             shutdown = true;
