@@ -1,4 +1,4 @@
-package me.timt.smi;
+package me.slideroller.MineFection;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -22,11 +22,11 @@ public class EventListener
   implements Listener
 {
   public boolean fixed = false;
-  private TIMT p;
+  private MineFection p;
   private int dead = 0;
   private int tdead = 0;
 
-  public EventListener(TIMT p) { this.p = p; }
+  public EventListener(MineFection p) { this.p = p; }
 
   @EventHandler
   public void onPlayerDeath(PlayerDeathEvent e) {

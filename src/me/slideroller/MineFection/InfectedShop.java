@@ -1,4 +1,4 @@
-package me.timt.smi;
+package me.slideroller.MineFection;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -16,7 +16,7 @@ import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
-public class TraitorShop
+public class InfectedShop
   implements CommandExecutor, Listener
 {
   @EventHandler

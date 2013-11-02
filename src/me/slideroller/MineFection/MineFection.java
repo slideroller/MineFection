@@ -1,4 +1,4 @@
-package me.timt.smi;
+package me.slideroller.MineFection;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -23,10 +23,10 @@ import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitScheduler;
 
-public class TIMT extends JavaPlugin
+public class MineFection extends JavaPlugin
 {
   private String GameState;
-  private TraitorShop tts;
+  private InfectedShop tts;
   private DetectiveShop dds;
   private EventListener el;
   public Player[] traitor;
@@ -49,11 +49,11 @@ public class TIMT extends JavaPlugin
     catch (IOException e) {
       e.printStackTrace();
     }
-    TraitorShop ts = new TraitorShop();
+    InfectedShop ts = new InfectedShop();
     DetectiveShop ds = new DetectiveShop();
     getServer().getPluginManager().registerEvents(ts, this);
     getServer().getPluginManager().registerEvents(ds, this);
-    tts = new TraitorShop();
+    tts = new InfectedShop();
     dds = new DetectiveShop();
 
     Bukkit.getWorld("world").setPVP(false);

@@ -1,4 +1,4 @@
-package me.timt.smi;
+package me.slideroller.MineFection;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
