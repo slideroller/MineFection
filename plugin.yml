@@ -1,0 +1,24 @@
+name: MineFection
+main: me.timt.smi.TIMT
+version: 1.1
+commands:
+   fstart:
+      description: Instant start the Game
+      usage: /<command> 
+      permission: minefection.start
+   ts:
+      description: Opens the Infected Shop
+      usage: /<command> 
+   ds:
+      description: Opens the Detective Shop
+      usage: /<command> 
+   infected:
+      description: Be a infected!
+      usage: /<command> 
+   fix:
+      description: Command against Bugspawning
+      usage: /<command> 
+   set:
+      description: Change settings!
+      usage: /<command> 
+      permission: minefection.set
