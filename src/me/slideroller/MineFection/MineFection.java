@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Random;
+
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Instrument;
@@ -37,6 +38,7 @@ public class MineFection extends JavaPlugin
   private String map2;
   private String map1;
   private int tp = 0;
+public Object chat;
 
   public void onLoad() { saveDefaultConfig(); }
 
@@ -283,4 +285,9 @@ public class MineFection extends JavaPlugin
     }
     return false;
   }
+
+public void log(String string) {
+	// TODO Auto-generated method stub
+	
+}
 }
